@@ -15,6 +15,9 @@
 		C503BDC41F065C5900E9DFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C503BDC21F065C5900E9DFB0 /* LaunchScreen.storyboard */; };
 		C503BDCF1F065C5900E9DFB0 /* KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C503BDCE1F065C5900E9DFB0 /* KVODemoTests.m */; };
 		C503BDDA1F065C5900E9DFB0 /* KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C503BDD91F065C5900E9DFB0 /* KVODemoUITests.m */; };
+		C503BDEA1F065CB900E9DFB0 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C503BDE81F065CB900E9DFB0 /* TableViewCell.m */; };
+		C503BDEB1F065CB900E9DFB0 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C503BDE91F065CB900E9DFB0 /* TableViewCell.xib */; };
+		C559B8E11F0B495B0025BF55 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C559B8E01F0B495B0025BF55 /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		C503BDD51F065C5900E9DFB0 /* KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C503BDD91F065C5900E9DFB0 /* KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoUITests.m; sourceTree = "<group>"; };
 		C503BDDB1F065C5900E9DFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C503BDE71F065CB900E9DFB0 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C503BDE81F065CB900E9DFB0 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C503BDE91F065CB900E9DFB0 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		C559B8DF1F0B495B0025BF55 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		C559B8E01F0B495B0025BF55 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				C503BDB81F065C5900E9DFB0 /* AppDelegate.m */,
 				C503BDBA1F065C5900E9DFB0 /* ViewController.h */,
 				C503BDBB1F065C5900E9DFB0 /* ViewController.m */,
+				C503BDE71F065CB900E9DFB0 /* TableViewCell.h */,
+				C503BDE81F065CB900E9DFB0 /* TableViewCell.m */,
+				C503BDE91F065CB900E9DFB0 /* TableViewCell.xib */,
+				C559B8DF1F0B495B0025BF55 /* CellModel.h */,
+				C559B8E01F0B495B0025BF55 /* CellModel.m */,
 				C503BDBD1F065C5900E9DFB0 /* Main.storyboard */,
 				C503BDC01F065C5900E9DFB0 /* Assets.xcassets */,
 				C503BDC21F065C5900E9DFB0 /* LaunchScreen.storyboard */,
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C503BDC41F065C5900E9DFB0 /* LaunchScreen.storyboard in Resources */,
+				C503BDEB1F065CB900E9DFB0 /* TableViewCell.xib in Resources */,
 				C503BDC11F065C5900E9DFB0 /* Assets.xcassets in Resources */,
 				C503BDBF1F065C5900E9DFB0 /* Main.storyboard in Resources */,
 			);
@@ -277,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C503BDBC1F065C5900E9DFB0 /* ViewController.m in Sources */,
+				C503BDEA1F065CB900E9DFB0 /* TableViewCell.m in Sources */,
 				C503BDB91F065C5900E9DFB0 /* AppDelegate.m in Sources */,
+				C559B8E11F0B495B0025BF55 /* CellModel.m in Sources */,
 				C503BDB61F065C5900E9DFB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +532,7 @@
 				C503BDE01F065C5900E9DFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C503BDE11F065C5900E9DFB0 /* Build configuration list for PBXNativeTarget "KVODemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				C503BDE31F065C5A00E9DFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C503BDE41F065C5A00E9DFB0 /* Build configuration list for PBXNativeTarget "KVODemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				C503BDE61F065C5A00E9DFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
